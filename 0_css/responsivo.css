@@ -348,6 +348,8 @@ body {
   /* Tu diseño personalizado */
   border-radius: inherit;
   /* Hace que el foco respete las esquinas redondeadas de cada elemento */
+   z-index: 9999 !important; 
+  position: relative;
 }
 
 button:focus,
